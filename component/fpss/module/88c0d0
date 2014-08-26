@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Frontpage Slideshow (by JoomlaWorks) - Ghana Commercial Bank - We serve you better</title>
+		<description><![CDATA[Ghana Commercial Bank - We serve you better]]></description>
+		<link>http://www.gcb.com.gh</link>
+		<lastBuildDate>Tue, 04 Feb 2014 22:26:11 +0000</lastBuildDate>
+		<generator>Joomla! - Open Source Content Management</generator>
+		<atom:link rel="self" type="application/rss+xml" href="http://www.gcb.com.gh/component/fpss/module/88?format=feed&amp;type=rss"/>
+		<language>en-gb</language>
+		<item>
+			<title>VISA Card</title>
+			<link>http://www.gcb.com.ghjavascript:void(0)</link>
+			<guid isPermaLink="true">http://www.gcb.com.ghjavascript:void(0)</guid>
+			<description><![CDATA[<div><img src="http://www.gcb.com.gh/media/com_fpss/cache/4_2ff2ba0051687eef5ca0459cf942940c_m.jpg" alt="VISA Card" /></div>GCB now issuing VISA cards]]></description>
+			<pubDate>Thu, 13 Dec 2012 04:46:43 +0000</pubDate>
+		</item>
+		<item>
+			<title>Email from GCB</title>
+			<link>http://www.gcb.com.ghjavascript:void(0)</link>
+			<guid isPermaLink="true">http://www.gcb.com.ghjavascript:void(0)</guid>
+			<description><![CDATA[<div><img src="http://www.gcb.com.gh/media/com_fpss/cache/11_c82cc4e14a1d2c8c8ffff9840d24b558_m.jpg" alt="Email from GCB" /></div>]]></description>
+			<pubDate>Tue, 18 Jun 2013 13:57:07 +0000</pubDate>
+		</item>
+		<item>
+			<title>GCB ATM </title>
+			<link>http://www.gcb.com.ghjavascript:void(0)</link>
+			<guid isPermaLink="true">http://www.gcb.com.ghjavascript:void(0)</guid>
+			<description><![CDATA[<div><img src="http://www.gcb.com.gh/media/com_fpss/cache/14_fd8b0f77d767f1f6640afba6916ff67c_m.jpg" alt="GCB ATM " /></div>]]></description>
+			<pubDate>Wed, 15 Jan 2014 16:45:29 +0000</pubDate>
+		</item>
+	</channel>
+</rss>

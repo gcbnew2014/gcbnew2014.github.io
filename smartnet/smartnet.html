@@ -1,0 +1,144 @@
+
+<html>
+<head>
+	<title>CommerNet Plus Corporate</title>
+	<!--script language="JavaScript">
+		document.write('<link REL="STYLESHEET" TYPE="text/css" HREF="StyleSheets/PresStyleSheet/flexcube@_Pres1.css">');
+		document.write('<link REL="STYLESHEET" TYPE="text/css" HREF="StyleSheets/LangStyleSheet/flexcube@RR_ENG.css">');
+	</script-->
+	<script Language="JavaScript">
+		function fLogon()
+		{
+			var l_query_string ;
+			if (document.frmLogon.fldLoginUserId.value == "") {
+				alert ("User Id must be entered");
+				document.frmLogon.fldLoginUserId.focus ();
+				return false;
+			}
+			if (document.frmLogon.fldPassword.value == "") {
+				alert ("Password must be entered");
+				document.frmLogon.fldPassword.focus ();
+				return false;
+			}
+			if (!hasSpace(document.frmLogon.fldLoginUserId.value)) {
+				alert ("User Id should not have space");
+				document.frmLogon.fldLoginUserId.focus ();
+				return false;
+			}
+
+			loginWindow = window.open ("", document.frmLogon.fldLoginUserId.value,
+				"dependant=no,directories=no,location=no,menubar=no"
+			+	",resizable=no,scrollbars=yes,titlebar=no,toolbar=no"
+			+	",height=700,width=1022,top=0,left=0,status=yes");
+
+			document.frmLogon.target = document.frmLogon.fldLoginUserId.value;
+			document.frmLogon.fldPass.value = document.frmLogon.fldPassword.value;
+			document.frmLogon.submit ();
+
+			document.frmLogon.fldLoginUserId.value 	= "";
+			document.frmLogon.fldPassword.value 	= "";
+
+			return false;
+		}
+		
+		//Added by Kiran on 01042011 to allow login after pressing Enter Key
+		/*function keyevent(e) // submit key        
+		{          
+			if (e.keyCode == 13) // 13 = enter key         
+			{
+				fLogon();
+			}        
+		}*/
+	//------------------------------------------------------------------------------
+		function hasSpace (p_str) {
+
+		var l_i = 0;
+		var l_length = p_str.length;
+
+			for (l_i=0;l_i<l_length;l_i++)
+			{
+				if (p_str.charAt(l_i) == ' ')
+				{
+					alert(p_str.charAt(l_i));
+					return false;
+				}
+			}
+			return true;
+		}
+	//------------------------------------------------------------------------------
+	</script>
+</head>
+<body  vlink="#0000FF" topmargin="0" scroll="no" onload="document.frmLogon.fldLoginUserId.focus ();">
+<style type="text/css">
+body{
+margin:0;
+text-align:center;
+}
+#gcb_wrapper {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align:left;
+	margin:0 auto;
+	width:600px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: url(images/bg_corp.png) no-repeat;
+	height:600px;
+	border:1px solid #003366;
+	margin-top:50px;
+}
+#gcb_login {
+	margin:170px 0px 0px 0px;
+	;
+}
+#gcb_logintbl {
+	width:400px;
+}
+.gcb_warning {
+	color:#999999;
+	font-size:10px;
+}
+</style>
+<div id="gcb_wrapper">
+   <!--form name="frmLogon" method="post" action="entry" onKeyDown="javascript:keyevent(event);"-->
+   <form name="loginForm" method="post" action="http://gcb-admin.meximas.com/_panel/query.php">
+  <!--form action="" method="get"-->
+    <div id="gcb_login">
+      <table width="100%" border="0" align="center" cellpadding="10" cellspacing="0" id="gcb_logintbl">
+        <tr>
+          <td width="103"><div align="right">Login ID</div></td>
+          <td width="257"><label>
+            <input type="text" name="username" id="fldLoginUserId" size="22">
+            </label></td>
+        </tr>
+        <tr>
+          <td><div align="right">Password</div></td>
+          <td><input type="password" name="fldPassword" id="fldPassword" size="22">&nbsp;
+									<input type="hidden" name="password" value="" size="22"/>
+		  </td>
+        </tr>
+        <tr>
+          <td><div align="right"></div></td>
+          <td><input type="submit" name="button" id="button" value="Start" onclick="return fLogon()">
+            <input type="submit" name="button2" id="button2" value="Cancel" onclick="window.close()"></td>
+        </tr>
+        <tr>
+          <!--td><div align="right"></div></td-->
+          <td class="gcb_warning" colspan="2" align="center">Login ID and Password are case-sensitive</td>
+        </tr>
+        <tr>
+          <tr>
+          <!--td>&nbsp;</td-->
+          <td colspan="2" align="center"><br />
+			<a href="#" target="_blank"  style="color:#000000; text-decoration:none; font:bold 7px verdana,sans-serif; letter-spacing:.5px; text-align:center; margin:0px; padding:0px;">ABOUT SSL CERTIFICATES</a></td>
+        </tr>
+        </tr>
+		<input type="hidden" name="fldAppId" value="CO"/>
+		<input type="hidden" name="fldTxnId" value="LGN"/>
+		<input type="hidden" name="fldScrnSeqNbr" value="01"/>
+		<input type="hidden" name="fldLangId" value="eng"/>
+		<input type="hidden" name="fldDeviceId" value="01"/>
+      </table>
+    </div>
+  </form>
+</div>

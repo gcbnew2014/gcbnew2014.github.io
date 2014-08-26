@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="en-gb">
+	<title type="text">Frontpage Slideshow (by JoomlaWorks) - Ghana Commercial Bank - We serve you better</title>
+	<subtitle type="text">Ghana Commercial Bank - We serve you better</subtitle>
+	<link rel="alternate" type="text/html" href="http://www.gcb.com.gh"/>
+	<id>http://www.gcb.com.gh/component/fpss/module/88</id>
+	<updated>2014-02-04T22:26:12+00:00</updated>
+	<generator uri="http://joomla.org" version="2.5">Joomla! - Open Source Content Management</generator>
+	<link rel="self" type="application/atom+xml" href="http://www.gcb.com.gh/component/fpss/module/88?format=feed&amp;type=atom"/>
+	<entry>
+		<title>VISA Card</title>
+		<link rel="alternate" type="text/html" href="http://www.gcb.com.ghjavascript:void(0)"/>
+		<published>2012-12-13T04:46:43+00:00</published>
+		<updated>2012-12-13T04:46:43+00:00</updated>
+		<id>http://www.gcb.com.ghjavascript:void(0)</id>
+		<summary type="html">&lt;div&gt;&lt;img src=&quot;http://www.gcb.com.gh/media/com_fpss/cache/4_2ff2ba0051687eef5ca0459cf942940c_m.jpg&quot; alt=&quot;VISA Card&quot; /&gt;&lt;/div&gt;GCB now issuing VISA cards</summary>
+		<content type="html">&lt;div&gt;&lt;img src=&quot;http://www.gcb.com.gh/media/com_fpss/cache/4_2ff2ba0051687eef5ca0459cf942940c_m.jpg&quot; alt=&quot;VISA Card&quot; /&gt;&lt;/div&gt;GCB now issuing VISA cards</content>
+	</entry>
+	<entry>
+		<title>Email from GCB</title>
+		<link rel="alternate" type="text/html" href="http://www.gcb.com.ghjavascript:void(0)"/>
+		<published>2013-06-18T13:57:07+00:00</published>
+		<updated>2013-06-18T13:57:07+00:00</updated>
+		<id>http://www.gcb.com.ghjavascript:void(0)</id>
+		<summary type="html">&lt;div&gt;&lt;img src=&quot;http://www.gcb.com.gh/media/com_fpss/cache/11_c82cc4e14a1d2c8c8ffff9840d24b558_m.jpg&quot; alt=&quot;Email from GCB&quot; /&gt;&lt;/div&gt;</summary>
+		<content type="html">&lt;div&gt;&lt;img src=&quot;http://www.gcb.com.gh/media/com_fpss/cache/11_c82cc4e14a1d2c8c8ffff9840d24b558_m.jpg&quot; alt=&quot;Email from GCB&quot; /&gt;&lt;/div&gt;</content>
+	</entry>
+	<entry>
+		<title>GCB ATM </title>
+		<link rel="alternate" type="text/html" href="http://www.gcb.com.ghjavascript:void(0)"/>
+		<published>2014-01-15T16:45:29+00:00</published>
+		<updated>2014-01-15T16:45:29+00:00</updated>
+		<id>http://www.gcb.com.ghjavascript:void(0)</id>
+		<summary type="html">&lt;div&gt;&lt;img src=&quot;http://www.gcb.com.gh/media/com_fpss/cache/14_fd8b0f77d767f1f6640afba6916ff67c_m.jpg&quot; alt=&quot;GCB ATM &quot; /&gt;&lt;/div&gt;</summary>
+		<content type="html">&lt;div&gt;&lt;img src=&quot;http://www.gcb.com.gh/media/com_fpss/cache/14_fd8b0f77d767f1f6640afba6916ff67c_m.jpg&quot; alt=&quot;GCB ATM &quot; /&gt;&lt;/div&gt;</content>
+	</entry>
+</feed>

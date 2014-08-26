@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Investment Services - Ghana Commercial Bank - We serve you better</title>
+		<description><![CDATA[Ghana Commercial Bank - We serve you better]]></description>
+		<link>http://www.gcb.com.gh/products-services/investment-services</link>
+		<lastBuildDate>Tue, 04 Feb 2014 22:29:07 +0000</lastBuildDate>
+		<generator>Joomla! - Open Source Content Management</generator>
+		<atom:link rel="self" type="application/rss+xml" href="http://www.gcb.com.gh/products-services/investment-services?format=feed&amp;type=rss"/>
+		<language>en-gb</language>
+		<item>
+			<title>Treasury Bill</title>
+			<link>http://www.gcb.com.gh/products-services/investment-services/treasury-bills</link>
+			<guid isPermaLink="true">http://www.gcb.com.gh/products-services/investment-services/treasury-bills</guid>
+			<description><![CDATA[<div class="feed-description"><p style="color: #464646;">With the Treasury Bills, the Bank acts as an intermediary and purchases government securities on behalf of customers.<br />Government Bonds purchased are another form of security and such investments may be retired or rolled over on the date of maturity depending on what the customer wants.</p>
+<p style="color: #464646;">With the 91 and 182-day bills, interest can be discounted up front and the bill again rediscounted before maturity (i.e. it can be redeemed before maturity).</p></div>]]></description>
+			<author>prelations@gcb.com.gh (GCB)</author>
+			<category>Investment Services</category>
+			<pubDate>Mon, 17 Dec 2012 12:59:59 +0000</pubDate>
+		</item>
+		<item>
+			<title>Call Accounts</title>
+			<link>http://www.gcb.com.gh/products-services/investment-services/call-accounts</link>
+			<guid isPermaLink="true">http://www.gcb.com.gh/products-services/investment-services/call-accounts</guid>
+			<description><![CDATA[<div class="feed-description"><p>These are accounts mostly operated by Corporates who want to benefit from interest incomes on their deposits while enjoying flexibility at the same time. They enable the customer to withdraw any amount of money at any time without prior notice to the Bank.<br />The interest rates on these deposits are mostly negotiated between the customer and the Bank. Interest is however calculated daily.</p>
+<p>To maximize the yield on one's investment, a customer could operate both a current account and a call account in which case instructions could be given that balances above a certain threshold on one's current account could be transferred to the call account so as to earn higher interest.</p>
+<p>In the event of the customer's current account not being able to meet an anticipated debit, instructions could be given for a transfer from the customer's call account to his current account to meet the debit.</p></div>]]></description>
+			<author>prelations@gcb.com.gh (GCB)</author>
+			<category>Investment Services</category>
+			<pubDate>Fri, 14 Dec 2012 03:42:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Fixed Deposit Account</title>
+			<link>http://www.gcb.com.gh/products-services/investment-services/fixed-deposit-account</link>
+			<guid isPermaLink="true">http://www.gcb.com.gh/products-services/investment-services/fixed-deposit-account</guid>
+			<description><![CDATA[<div class="feed-description"><p>The above-mentioned account ensures that idle funds that do not require immediate use are invested prudently for good returns.<br />The rate of interest is negotiable depending on the amount being invested.</p>
+<p>The minimum invested amount is GH¢1000 and may be deposited for one month, three months, six months or longer.</p>
+<p>The Fixed Deposit Certificates could be used as collateral for a loan from the Bank.</p></div>]]></description>
+			<author>prelations@gcb.com.gh (GCB)</author>
+			<category>Investment Services</category>
+			<pubDate>Fri, 14 Dec 2012 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>GCB Share Price</title>
+			<link>http://www.gcb.com.gh/products-services/investment-services/59-gcb-share-pricing</link>
+			<guid isPermaLink="true">http://www.gcb.com.gh/products-services/investment-services/59-gcb-share-pricing</guid>
+			<description><![CDATA[<div class="feed-description"><p>The GCB share price stands at 2.10 Ghana Cedis</p></div>]]></description>
+			<author>prelations@gcb.com.gh (GCB)</author>
+			<category>Investment Services</category>
+			<pubDate>Fri, 14 Dec 2012 00:00:00 +0000</pubDate>
+		</item>
+	</channel>
+</rss>

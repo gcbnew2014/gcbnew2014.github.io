@@ -1,0 +1,151 @@
+.fpss-template-simple {
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    width:738px;
+}
+
+
+.fpss-template-simple .slides-wrapper {
+    background:none;
+    height:200px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 738px;
+}
+
+.fpss-template-simple .slides-wrapper .slides .slide {
+    height: 200px;
+    overflow: hidden;
+    position: absolute;
+    width:738px;
+}
+
+.fpss-template-simple .slides-wrapper .slides .slide a.slide-link {
+    position: absolute;
+}
+.fpss-template-simple a {
+    cursor: pointer;
+}
+
+.fpss-template-simple img {
+    border: medium none;
+}
+
+.fpss-template-simple .slides-wrapper .slides .slide .slidetext {
+    background:url(../images/transparent_bg.html);
+    left:50px;
+	top:30px;
+	bottom:0px;
+    margin: 0;
+    padding:15px;
+    position: absolute;
+    width:200px;
+    z-index: 1;
+	height:200px;
+	color:#FFF;
+	
+}
+.fpss-template-simple .slidetext h1, .fpss-template-default .slidetext h1 a {
+    color: #FFF;
+    font-size:20px;
+    margin: 0;
+    text-decoration: none;
+}
+.fpss-template-simple .slidetext h1 {
+    padding: 0px;
+}
+.fpss-template-simple .slidetext a.fsReadMore{
+	color:#367AE0;
+	font-size:14px;
+	text-transform:capitalize;
+}
+
+.fpss-template-simple div.navigation-wrapper {
+    margin: 0;
+    padding:0;
+    width:980px;
+}
+.fpss-template-simple div.navigation-background {
+    position: absolute;
+	display:none;
+    z-index: 8;
+}
+.fpss-template-simple ul.navigation li.active,.fpss-template-simple ul.navigation li:hover, .fpss-template-simple div.navigation-background {
+    border: 1px solid #505050;
+}
+
+.fpss-template-simple ul.navigation {
+    background:none;
+    float: right;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0px;
+    text-align: right;
+}
+.fpss-template-simple ul.navigation li.navigation-previous,
+.fpss-template-simple ul.navigation li.navigation-next,
+.fpss-template-simple ul.navigation li.navigation-control {
+    border: medium none;
+    padding:0px;
+    width: auto;
+}
+.fpss-template-simple ul.navigation li {
+    background:none;
+    border:none;
+    display: block;
+    float: left;
+    margin-right:0px;
+    z-index: 7;
+}
+.fpss-template-simple ul.navigation li.navigation-button,
+.fpss-template-simple ul.navigation li.navigation-control{
+	display:none;
+}
+
+.fpss-template-simple ul.navigation li.navigation-previous{
+	position:absolute;
+	left:10px;
+	top:46%;
+	z-index:100;
+	
+}
+.fpss-template-simple ul.navigation li.navigation-previous a,
+.fpss-template-simple ul.navigation li.navigation-next a{
+	width:15px;
+	height:23px;
+	display:block;
+	text-indent:-2000px;
+}
+.fpss-template-simple ul.navigation li.navigation-previous a{
+	background:url(../images/prev.png) no-repeat scroll left top;
+}
+.ffpss-template-simple ul.navigation li.navigation-next a{
+	background:url(../images/next.png) no-repeat scroll left top;
+}
+
+
+.fpss-template-simple ul.navigation li.navigation-next{
+	position:absolute;
+	right:10px;
+	top:46%;
+	z-index:100;
+}
+.fpss-template-simple ul.navigation li a {
+    color: #FFFFFF;
+    display: block;
+    font-family: Tahoma,Arial,sans-serif;
+    font-size: 10px;
+    margin: 0;
+    overflow: hidden;
+    padding:0px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    z-index: 9;
+}
+.fpss-template-simple a {
+    cursor: pointer;
+}
